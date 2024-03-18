@@ -1,4 +1,4 @@
-
+html {zoom: 75%;}
 .main-Pix {
     align-items: center;
     display: inline-block;
@@ -39,7 +39,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    zoom: 95%;    
+    /*zoom: 95%;  */  
 }
 header{
     width: 100%;
