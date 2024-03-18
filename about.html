@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- start html -->
+
+    <head> <!-- start header -->
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <title> Ohana Football Sports Centre&trade; </title> <!-- title start/end -->
+        <link rel="icon" href="TitleLogo1.png" type="image/x-icon">
+        <link rel="shortcut icon" type="image/x-icon" href="LogoCrop.jpg">
+        <link rel="stylesheet" href="AssignmentStyle.css">
+        
+    </head> <!-- END HEADER -->
+  
+
+    <body> <!-- START BODY -->
+        <div class="wrapper">
+            <header style="height:17vh">
+                <nav> <!-- helps navigate page using links-->
+                    <div class="logo">
+                        <a href="#">
+                            <img src="LogoCrop.jpg" alt="HTML5 Img" title="Ohana Football Sports Centre: The Home of Football in Jamaica">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">&nbsp;Home&nbsp;</a></li>
+                            <li><a href="rental.html">Pitch Rental</a></li>
+                            <li><a href="training.html">Training</a></li>                            
+                            <li><a href="store.html"><abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade; Sports Store</a></li>
+                            <li><a href="#">About <abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade;</a></li>
+                            <li><a href="contact.html">Contact <abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade;</a></li>
+                        </ul>
+                    </div>                    
+                </nav> <!-- END NAV-->
+            </header>
+        </div>
+        
+        <section class="about"> <!-- About Us Section -->
+            <h2 class="noNeed">&nbsp;</h2>
+                
+            <fieldset>
+            
+                <legend>&nbsp;<b><u>About <abbr title="Ohana Football Sports Centre">OFSC</abbr></u></b>&trade;&nbsp;</legend>
+
+                <div class="toPix">
+                    <img src="AboutUS1.jpg" alt="HTML5 Img" width="1600" height="780">
+                </div>
+
+            </fieldset><br>
+
+        </section>
+        <footer>
+            <a href="#">
+            <img src="LogoCrop.jpg" alt="HTML5 Img" title="Back To Top" width="129" height="32">
+            </a>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("nav").addClass("black");
+                }
+                else{
+                    $("nav").removeClass("black");                
+                }
+            })
+        </script>
+    </body>
+</html>

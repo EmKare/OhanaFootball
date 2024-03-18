@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- start html -->
+
+    <head> <!-- start header -->
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <title> Ohana Football Sports Centre&trade; </title> <!-- title start/end -->
+        <link rel="icon" href="TitleLogo1.png" type="image/x-icon">
+        <link rel="shortcut icon" type="image/x-icon" href="LogoCrop.jpg">
+        <link rel="stylesheet" href="AssignmentStyle.css">
+        
+    </head> <!-- END HEADER -->
+  
+
+    <body> <!-- START BODY -->
+        <div class="wrapper">
+            <header style="height:17vh">
+                <nav> <!-- helps navigate page using links-->
+                    <div class="logo">
+                        <a href="#">
+                            <img src="LogoCrop.jpg" alt="HTML5 Img" title="Ohana Football Sports Centre: The Home of Football in Jamaica">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">&nbsp;Home&nbsp;</a></li>
+                            <li><a href="rental.html">Pitch Rental</a></li>
+                            <li><a href="training.html">Training</a></li>                            
+                            <li><a href="store.html"><abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade; Sports Store</a></li>
+                            <li><a href="about.html">About <abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade;</a></li>
+                            <li><a href="#">Contact <abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade;</a></li>
+                        </ul>
+                    </div>                    
+                </nav> <!-- END NAV-->
+            </header>
+        </div>
+
+        <section class="contact"> <!-- Contact Us Section -->
+                
+            <fieldset>
+                                
+                <legend>&nbsp;<b><u>Contact <abbr title="Ohana Football Sports Centre">OFSC</abbr></u></b>&trade;&nbsp;</legend>
+
+                <p id="contactUsPara">
+                Need more information? If you have any questions, queries, or suggestions, feel free to leave us a message! Our staff at <abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade; are eager to hear from and assist you!
+                </p><br>                    
+            
+                <form action="https://httpbin.org/get" method="post" id="contactUs" >
+                    <fieldset>
+                        <legend style="font-size:23px">&nbsp;<b><abbr title="Ohana Football Sports Centre">OFSC</abbr>&trade; Contact Form</b>&nbsp;</legend>
+                       
+                        <div class="first-set-form-edit">
+                            <a>
+                                <img src="TitleLogo1.jpg" alt="HTML5 Img" width="400" height="400">
+                            </a>
+                        </div>
+                        <div class="top-pad"></div>
+                        <div class="second-set-form-edit">
+                            <input type="text" name="Fname" id="Fname" value="" placeholder="First Name" autocomplete="on" required >                        
+                            <span><input type="text" name="Lname" id="Lname" value="" placeholder="Last Name" autocomplete="on" required></span>
+                        </div>
+                        <div class="second-set-form-edit">
+                            <input type="email" name="Email" id="Email" value="" placeholder="johndoe@email.com" required>
+                            <span><input type="tel" name="Phone" id="Phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required></span>
+                        </div>
+
+                        <h3 class="Para"><u>Inquiry</u></h3>
+
+                        <p class="Para">
+                            <div class="set-6">
+                                <div class="rent">
+                                    <input type="checkbox" name="inquire" id="inqRent" value="inqRent">
+                                    <label for="inqRent"> Rental </label>
+                                </div>
+                                <div class="train">
+                                    <input type="checkbox" name="inquire" id="inqTrain" value="inqTrain">
+                                    <label for="inqTrain"> Training </label>
+                                </div>
+                                <div class="shop">
+                                    <input type="checkbox" name="inquire" id="inqStore" value="inqStore">
+                                    <label for="inqStore"> Store </label>
+                                </div>                                  
+                                <div class="tour">
+                                    <input type="checkbox" name="inquire" id="inqTour" value="inqTour">
+                                    <label for="inqTour"> Tournaments </label>
+                                </div>
+                                <div class="other">
+                                    <input type="checkbox" name="inquire" id="inqOther" value="inqOther">
+                                    <label for="inqOther"> Other </label><br>
+                                </div>
+                            </div>
+                        
+                        <p class="Para">                    
+                            <textarea name="message" id="messages" cols="47" rows="5" placeholder="Type Your Message Here" ></textarea>
+                        </p>
+                        
+                    </fieldset>
+                    <div class="contact_button_div">
+                        <button class="btn" type="submit" formaction="https://httpbin.org/post" formmethod="post"> Submit </button>
+                        <button class="btn" type="reset" style="font-size:18px"  > Reset </button>
+                    </div>
+                </form>
+            </fieldset>
+            <section>
+                <h2><u>Location</u></h2>
+                <address>
+                    Lot 23-27 Manchester Road<br>
+                    Mandeville, <abbr title="Jamaica">Ja.</abbr>
+                    <br>
+                    Phone: <a href="tel:+18765555555">1-876-555-5555</a><br>
+                    <a href="mailto:ksaunders11@stu.ucc.edu.jm">Email <abbr title="Ohana Football Sports Centre">OFSC</abbr></a>&trade;<br>
+                </address>
+            </section><hr>
+            <p>&lt;&lt;&lt; <a href="https://www.facebook.com/baldheaddread" target="_blank" title=" Kareem K. Saunders | 20221975 | ITT208 ">Kareem Saunders&copy; </a> &gt;&gt;&gt;<br><br></p> 
+        </section>
+
+        <footer>
+        <a href="#">
+            <img src="LogoCrop.jpg" alt="HTML5 Img" title="Back To Top" width="129" height="32">
+        </a>
+    </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("nav").addClass("black");
+                }
+                else{
+                    $("nav").removeClass("black");                
+                }
+            })
+        </script>
+    </body>
+</html>
